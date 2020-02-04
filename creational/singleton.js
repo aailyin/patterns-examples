@@ -13,20 +13,20 @@
 
 // TS -----------------------------------------
 class Singleton {
-    protected static _instance: Singleton;
+    private static instance: Singleton;
 
     constructor() {
-        if (Singleton._instance) {
+        if (Singleton.instance) {
             throw new Error('Error: call Singleton.getInstance() to get instance.');
         }
-        Singleton._instance = this;
+        Singleton.instance = this;
     }
 
     public static getInstance(): Singleton {
-        if (Singleton._instance) {
-            return Singleton._instance;
+        if (Singleton.instance) {
+            return Singleton.instance;
         }
-        return Singleton._instance = new Singleton();
+        return Singleton.instance = new Singleton();
     }
 }
 
