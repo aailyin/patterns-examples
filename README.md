@@ -1,7 +1,9 @@
 # Patterns on JavaScript
 
 Just a repo with several examples of popular patterns written to practise myself.
-Based on examples from course https://github.com/YauhenKavalchuk/design-patterns
+Based on examples from:
+* [This course (ru)](https://github.com/YauhenKavalchuk/design-patterns)
+* [This site (ru)](https://refactoring.guru/ru/design-patterns/what-is-pattern)
 
 Patterns: 
 * Behaviour:
