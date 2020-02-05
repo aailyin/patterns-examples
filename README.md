@@ -5,9 +5,12 @@ Based on examples from course https://github.com/YauhenKavalchuk/design-patterns
 
 Patterns: 
 * Behaviour:
-  * Mediator
-  * Iterator
   * Chain of responsibility
+  * Iterator
+  * Mediator
+  * Memento
+  * Strategy
+  * Template
 * Creational:
   * Abstract factory
   * Bridge
