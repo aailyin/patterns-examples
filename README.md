@@ -8,12 +8,12 @@ Based on examples from:
 Patterns: 
 * Behaviour:
   * Chain of responsibility
-  * //Command
+  * Command
   * Iterator
   * Mediator
   * Memento
-  * //Observer
-  * //State 
+  * Observer
+  * State 
   * Strategy
   * Template
   * Visitor
